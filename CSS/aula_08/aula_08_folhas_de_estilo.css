@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body { /* oi, EU SOU UM COMENTÁRIO */ 
+    background-color: blanchedalmond;
+    color:darkred; 
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(107, 149, 196);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 85, 124);
+    text-align: center;
+    font-size:50px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    color: rgb(37, 69, 105);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 105, 155);
+}
+
+h3 {
+    color: yellow;
+    font-size: x-large;
+}
+
+input {
+    background-color: rgb(187, 219, 255);
+}
+
+textarea {
+    background-color: rgb(187, 219, 255);
+}   
+
+button {
+    background-color: gold;
+}
+
+mark {
+    background-color: greenyellow;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+
+    <form>
+
+        <h2>Informações pessoais</h2>
+
+        <p>
+            Nome Completo:
+            <br/>
+            <input minlength="10" maxlength="50" required/>
+        </p>
+
+        <p>
+            E-mail:
+            <br/>
+            <input type="email" required placeholder="exemplo@dominio.com"/>
+        </p>
+
+        <p>
+            Senha:
+            <br/>
+            <input type="password" required>
+        </p>
+
+        <p>
+            Data de Nascimento:
+            <br/>
+            <input type="date" required/>
+        </p>
+
+        <p>Interesses:</p>
+        <input type="checkbox"/> Programação
+        <br/>
+        <input type="checkbox"/> Design
+        <br/>
+        <input type="checkbox"/> Análise de Dados
+
+        <h2>Local da Entrega</h2>
+
+        <p>
+            CEP:
+            <br/>
+            <input type="number" minlength="9" maxlength="9" required/>
+        </p>
+
+        <p>
+            Endereço completo:
+            <br/>
+            <input placeholder="Rua, número e bairro..."/>
+        </p>
+
+        <p>
+            Cidade:
+            <br>
+            <select required>
+                <option selected disabled>Selecione</option>
+                <option>São Carlos</option>
+                <option>Ibaté</option>
+                <option>Araraquara</option>
+            </select>
+        </p>
+
+        <h2>Preferências</h2>
+
+        <p>Tipo de entrega:</p>
+
+        <label>
+            <input type="radio" name="entrega" value="pac" checked required> PAC
+        </label>
+
+        <br/>
+
+        <label>
+            <input type="radio" name="entrega" value="sedex"/> Sedex
+        </label>
+
+        <br/>
+
+        <label>
+            <input type="radio" name="entrega" value="correios"/> Correios
+        </label>
+
+        <p>
+            Observações: 
+            <br/>
+            <textarea rows="6" cols="45"></textarea>
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

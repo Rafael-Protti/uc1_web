@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>H.B. Games</h1>
+
+    <a href="index.html">Início</a> <br/>
+    <a href="entrar.html">Entrar</a> /
+    <a href="cadastrar.html">Cadastrar</a> <br/>
+    <a href="contato.html">Contato</a>
+    <hr/>
+
+    <h2>Cadastre-se</h2>
+    <p>Cria sua conta agora e fique por dentro de todas as nossas promoções!</p>
+    <p>Já tem uma conta? <a href="entrar.html">Clique aqui</a>.</p>
+
+    <h3>Informações pessoais</h3>
+
+    <form action="confirma_cadastro.html">
+        <p>
+            <label>
+                    Nome completo:
+                    <br/>
+                    <input minlength="10" maxlength="25" required/>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Data de nascimento
+                <br/>
+                <input type="date" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Endereço
+                <br/>
+                <input placeholder="Rua" required>
+                <input type="number" placeholder="Número" required>
+                <input placeholder="Bairro" required>
+            </label>
+        </p>
+
+        <h3>Você está se cadastrando para:</h3>
+        <p>
+            <label>
+                <input type="radio" name="uso do site"/> Promoções
+                <br/>
+                <input type="radio" name="uso do site"/> Cupons de desconto
+                <br/>
+                <input type="radio" name="uso do site"/> Conhecer novos jogos
+            </label>
+        </p>
+
+        <h3>Dados de login</h3>
+        <p>
+            <label>
+                E-mail
+                <br/>
+                <input type="email" required/>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Senha
+                <br/>
+                <input type="password" minlength="10" maxlength="30" required/>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox"> Quero receber promoções no meu e-mail.
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">Salvar e continuar</button>
+        </p>
+    </form>
+</body>
+</html>

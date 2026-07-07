@@ -1,0 +1,26 @@
+.anotacoes {
+    color: white; /* Muda cor da fonte */
+    font-size: small; /* Muda tamanho da fonte */
+    background-color: black; /* Muda cor do fundo */
+    text-align: center; /* Muda alinhamento do texto */
+    width: 100px; /* Muda tamanho do elemento (texto, imagem etc) */
+    
+    background-attachment: fixed; /* Controla de o fundo é fixo ou não*/
+    background-image: linear-gradient(90deg, red 10%, blue 50%); /* Controla gradiente (degradê) dos elementos */
+    background-image: radial-gradient(circle, red, black); /* Gradiente circular */
+    text-shadow: 1px 1px black; /* Coloca sombra no texto */
+    box-shadow: 1px 1px black; /* Coloca sombra nos elementos (box) */
+    padding: 10px; /* "Magem interna", afasta conteúdos de um elemento de suas bordas. Usar esse atributo para aumentar tamanho dos botões (<button>) */ 
+    padding: 10px 20px; /* O primeiro valor altera a margem interna de cima e baixo (altura). O segundo, altera esquerda e direta (largura) */
+    margin: 10px; /* Margem, afasta os elementos das bordas do site, usar valores negativos para deixar elementos mais próximos. */
+    margin: auto; /* A margem automática deixa os elementos centralizados na tela */
+    border-radius: 10px; /* Arredonda as pontas do conteúdo (caixas) */
+    border: 1px solid black; /* Altera tamanho, tipo e cord das bordas (funciona em botão) Existem os tipos SOLID, DOTTED e DASHED */
+    cursor: progress; /* Altera o cursor ao passar pelo botão/elemento*/
+
+    border-radius: 10px 10px 10px 10px; /* Cada valor altera uma borda diferente*/
+    width: 100%; /* A porcentagem faz o conteúdo ocupar a porcentagem equivalente no contexto inserido (site inteiro, div, etc) */
+
+    display: flex; /* Ao criar um DECK, usa o flex para colocar os CARD alinhados horizontalmente */
+    justify-content: space-around; /* Altera o tipo de alinhamento dos CARDs dentro de um DECK */
+}

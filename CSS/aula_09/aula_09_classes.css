@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+body, button {
+    font-family: "Cantarell", sans-serif;
+}
+
+.titulo {
+    color: #FF9E00;
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 4em;
+}
+
+.subtitulo {
+    color:#AB0E00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texto_apresentacao {
+    color:#AB0E00;
+    font-size: 20px;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: white;
+}
+
+.botao {
+    background-color: #AB0E00;
+    color: white;
+    font-weight: bolder;
+}
+
+.fundo {
+    background-color: #FFD150;
+    background-attachment: fixed;
+}
+
+/* .paragrafos {
+    color: blue;
+} */
+
+.menu {
+    text-align: center;
+}
+
+.secao {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 1px 1px black;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    width: 300px;
+    text-align: center;
+    box-shadow: 5px 5px gray;
+}
+
+.card_imagem {
+    margin-top: 25px;
+}
+
+.card_titulo {
+    color: #FF9E00;
+    font-size: larger;
+    text-align: justify;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.card_descricao {
+    text-align: justify;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: small;
+}
+
+.card_preco {
+    color: #AB0E00;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.card_botao {
+    margin-bottom: 25px;
+    margin-right: 25px;
+    text-align: right;
+    background-color: #AB0E00;
+    color: white;
+    font-weight: bolder;
+}
+
+.card_botao_alinhamento {
+    text-align: right;
+}
