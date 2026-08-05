@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    color: #272727;
+    font-family: "Cantarell", sans-serif;
+}
+
+.cabecalho {
+    background-image: url(fundoImg.png);
+    background-size: cover;
+    height: 725px;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 7.0em;
+}
+
+.subtitulo {
+    margin-top: -75px;
+    text-align: center;
+    font-size: 4.0em;
+    line-height: 1.2em;
+}

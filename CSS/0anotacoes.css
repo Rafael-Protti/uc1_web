@@ -22,5 +22,10 @@
     width: 100%; /* A porcentagem faz o conteúdo ocupar a porcentagem equivalente no contexto inserido (site inteiro, div, etc) */
 
     display: flex; /* Ao criar um DECK, usa o flex para colocar os CARD alinhados horizontalmente */
+    align-items: center; /* Alinha os CARDs dentro de um DECK verticalmente, precisa ter o display: flex*/
     justify-content: space-around; /* Altera o tipo de alinhamento dos CARDs dentro de um DECK */
+
+    list-style-type: none; /* Remove os marcadores de listas (bolinhas, números, etc) */
+
+    list-style-type: square; /* Altera o tipo de marcador da lista (bolinha, quadrado, número, etc) */
 }
