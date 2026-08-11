@@ -1,0 +1,48 @@
+-Gerenciamento de usuário (cadastro e login, biografia, nivel do colecionador, avaliações recebidas ,histórico de trocas)
+
+-Painel do usuario (numero de trocas feitas, itens cadastrados, itens favoritos, propostas pendentes)
+
+-Gerenciamento de trocas(adicionar itens, upload de fotos, estado de conservação, lista de desejos(marcar itens desejados para possivel pesquisa) (itens)
+          +
+-Gerenciamento de pesquisa(barra de pesquisa, buscar nome, filtrar p/ categoria, filtro de conservação, mais recentes) (itens)
+
+-Sistema de trocas (receber e aceitar trocas ou recusar propostas, cancelar proposta) (venda)
+
+** -Gerenciamento de segurança (verificação de email, denuncia de usuario,bloqueio de usuario, moderação de usuario na sua postagem)
+
+** -Personalização do usuario (tema claro/escuro), edição do perfil, 
+
+-Sistema de gamificação(sistema de XP, níveis, missões, ranking dos colecionadores) (usu)
+
+-Gerenciamento de planos (os planos geram maior renda de pontos do mensal e anual com promoções momentâneas)
+
+-Gerenciamento de renda (focada nos planos, o site será gratuito mas com funções premium com a assinatura)
+
+-Categorias (livros, vinis, CDs, videogames, cartinhas e moedas) (itens)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Entidades:
+
+-Usuário (verificação)
+
+-Itens (lista, filtros, categorias, imagem ou várias, favoritos,)
+
+-Troca (envio e recebimento de propostas)
+
+-Planos
+
+-Avaliação (avaliação do usuário pós troca)
+
+-Histórico
+
+-Conquista (selos, níveis por quantidade de trocas)
+
+-Ranking 
+
+
+__
+
+Comentário de avaliação
+Missões
+
